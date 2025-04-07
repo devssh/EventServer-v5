@@ -1,0 +1,31 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+<key>Label</key>
+<string>com.immoguna.gunicornsample</string>
+
+<key>WorkingDirectory</key>
+<string>/Users/devssh/EventServer/Codebase/EventServerV5/PythonScripts/gunicorn</string>
+
+<key>ProgramArguments</key>
+<array>
+<string>/opt/homebrew/anaconda3/bin/gunicorn</string>
+<string>-c</string>
+<string>/Users/devssh/EventServer/Codebase/EventServerV5/PythonScripts/gunicorn/gunicorn.conf.py</string>
+<string>appnamegunicorn:app</string>
+</array>
+
+<key>RunAtLoad</key>
+<true/>
+<key>KeepAlive</key>
+<true/>
+</dict>
+
+</plist>
+
+

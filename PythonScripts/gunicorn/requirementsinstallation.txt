@@ -1,0 +1,32 @@
+
+
+pip install gunicorn
+
+which gunicorn
+
+/opt/homebrew/anaconda3/bin/gunicorn
+
+pip show gunicorn
+
+Name: gunicorn
+Version: 23.0.0
+Summary: WSGI HTTP Server for UNIX
+Home-page:
+Author:
+Author-email: Benoit Chesneau <benoitc@gunicorn.org>
+License: MIT
+Location: /opt/homebrew/anaconda3/lib/python3.9/site-packages
+Requires: packaging
+Required-by:
+
+Name: Flask
+Version: 1.1.2
+Summary: A simple framework for building complex web applications.
+Home-page: https://palletsprojects.com/p/flask/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: /opt/homebrew/anaconda3/lib/python3.9/site-packages
+Requires: click, itsdangerous, Jinja2, Werkzeug
+Required-by: Flask-Cors
+
