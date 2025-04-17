@@ -1,0 +1,18 @@
+total 0
+drwxr-xr-x  17 root  wheel  544 Mar 16 00:56 .
+drwxr-xr-x   7 root  wheel  224 Mar 16 00:56 ..
+lrwxr-xr-x   1 root  wheel   62 Feb 21  2023 com.docker.cli -> /Applications/Docker.app/Contents/Resources/bin/com.docker.cli
+lrwxr-xr-x   1 root  wheel   54 Feb 21  2023 docker -> /Applications/Docker.app/Contents/Resources/bin/docker
+lrwxr-xr-x   1 root  wheel   62 Feb 21  2023 docker-compose -> /Applications/Docker.app/Contents/Resources/bin/docker-compose
+lrwxr-xr-x   1 root  wheel   80 Feb 21  2023 docker-compose-v1 -> /Applications/Docker.app/Contents/Resources/bin/docker-compose-v1/docker-compose
+lrwxr-xr-x   1 root  wheel   73 Feb 21  2023 docker-credential-desktop -> /Applications/Docker.app/Contents/Resources/bin/docker-credential-desktop
+lrwxr-xr-x   1 root  wheel   75 Feb 21  2023 docker-credential-ecr-login -> /Applications/Docker.app/Contents/Resources/bin/docker-credential-ecr-login
+lrwxr-xr-x   1 root  wheel   77 Feb 21  2023 docker-credential-osxkeychain -> /Applications/Docker.app/Contents/Resources/bin/docker-credential-osxkeychain
+lrwxr-xr-x   1 root  wheel   60 Feb 21  2023 docker-index -> /Applications/Docker.app/Contents/Resources/bin/docker-index
+lrwxr-xr-x   1 root  wheel   48 Mar 16 00:56 git-credential-manager -> /usr/local/share/gcm-core/git-credential-manager
+lrwxr-xr-x   1 root  wheel   56 Feb 21  2023 hub-tool -> /Applications/Docker.app/Contents/Resources/bin/hub-tool
+lrwxr-xr-x   1 root  wheel   55 Feb 21  2023 kubectl -> /Applications/Docker.app/Contents/Resources/bin/kubectl
+lrwxr-xr-x   1 root  wheel   55 Feb 21  2023 kubectl.docker -> /Applications/Docker.app/Contents/Resources/bin/kubectl
+lrwxr-xr-x   1 root  wheel   24 Aug 16  2022 vagrant -> /opt/vagrant/bin/vagrant
+lrwxr-xr-x   1 root  wheel   27 Aug 16  2022 vagrant-go -> /opt/vagrant/bin/vagrant-go
+lrwxr-xr-x   1 root  wheel   65 Feb 21  2023 vpnkit -> /Applications/Docker.app/Contents/Resources/bin/com.docker.vpnkit

@@ -1,0 +1,68 @@
+{
+    "bin": [
+        "ps"
+    ],
+    "usr-local-bin": "docker, k8, gcm, vagrant, auth links",
+    "usr-bin": {
+        "s flag": [
+            "su",
+            "sudo",
+            "at",
+            "atq",
+            "atrm",
+            "batch",
+            "crontab",
+            "login",
+            "newgrp",
+            "quota",
+            "top"
+        ],
+        "read only special exec": [
+            "write"
+        ],
+        "links": [
+            "auval",
+            "bzcmp",
+            "bzless",
+            "captoinfo",
+            "cvaffinity",
+            "cvcp",
+            "cvmkdir",
+            "cvmkfile",
+            "ex",
+            "fontrestore",
+            "infotocap",
+            "klist",
+            "kswitch",
+            "ldapadd",
+            "mailq",
+            "manpath",
+            "nano",
+            "ncdestroy",
+            "ncinit",
+            "nclist",
+            "newaliases",
+            "qlmanage",
+            "reset",
+            "rview",
+            "rvim",
+            "safaridriver",
+            "sdx",
+            "slogin",
+            "snfsdefrag",
+            "snmpinform",
+            "swcutil",
+            "tar",
+            "tclsh",
+            "tclsh8.5",
+            "tkcon",
+            "vi",
+            "view",
+            "vimdiff",
+            "wish",
+            "yaa"
+        ]
+    },
+    "opt-homebrew-bin": "mostly links",
+    "details": "\n1. Background shading is the s flag instead of x making it protected from execution\n2. Symbolic links are purple, normal files are red. usr-local-bin is symbolic. \nIt turns out as l flag indicating link instead of - for regular file.\n3. ACFS is short for Oracle ASM Cluster FileSystem. ASM is Automatic Storage Management\n4. /usr/sbin\n5. /System/Library\n6. /opt/homebrew/anaconda3/bin\n"
+}
