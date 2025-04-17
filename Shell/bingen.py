@@ -13,7 +13,7 @@ paths = [
 "/usr/local/bin",
 "/usr/bin",
 "/opt/homebrew/bin",
-"/usr/sbin"
+"/usr/sbin",
 "/opt/homebrew/anaconda3/bin"
 ]
 

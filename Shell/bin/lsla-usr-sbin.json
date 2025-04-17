@@ -1,0 +1,234 @@
+total 79192
+drwxr-xr-x  233 root   wheel          7456 Jul 14  2022 .
+drwxr-xr-x@  11 root   wheel           352 Jul 14  2022 ..
+-rwxr-xr-x    1 root   wheel        931792 Jul 14  2022 BTLEServer
+-rwxr-xr-x    1 root   wheel        931808 Jul 14  2022 BTLEServerAgent
+-rwxr-xr-x    1 root   wheel        592816 Jul 14  2022 BlueTool
+-rwxr-xr-x    1 root   wheel        437728 Jul 14  2022 BootCacheControl
+-rwxr-xr-x    1 root   wheel        152912 Jul 14  2022 DevToolsSecurity
+lrwxr-xr-x    1 root   wheel            33 Jul 14  2022 DirectoryService -> ../../usr/libexec/dspluginhelperd
+-rwxr-xr-x    1 root   wheel        206992 Jul 14  2022 KernelEventAgent
+-rwxr-xr-x    1 root   wheel        453152 Jul 14  2022 PasswordService
+-rwxr-xr-x    1 root   wheel       2207600 Jul 14  2022 WirelessRadioManagerd
+-rwxr-xr-x    1 root   wheel        228480 Jul 14  2022 ab
+-rwxr-xr-x    1 root   wheel        151072 Jul 14  2022 ac
+-rwxr-xr-x    1 root   wheel        150144 Jul 14  2022 accton
+-rwxr-xr-x    1 root   wheel        151680 Jul 14  2022 amt
+-rwxr-xr-x    1 root   wheel          3824 Jul 14  2022 apachectl
+-rwxr-xr-x    1 root   wheel       3832400 Jul 14  2022 applecamerad
+-rwxr-xr-x    1 root   wheel       2665840 Jul 14  2022 appleh13camerad
+-rwxr-xr-x    1 root   wheel        235296 Jul 14  2022 appsleepd
+-r-xr-xr-x    1 root   wheel        168768 Jul 14  2022 arp
+-rwxr-xr-x    1 root   wheel        241056 Jul 14  2022 aslmanager
+-rwxr-xr-x    1 root   wheel        999568 Jul 14  2022 asr
+-rwxr-xr-x    1 root   wheel        150480 Jul 14  2022 audit
+-rwxr-xr-x    1 root   wheel        172144 Jul 14  2022 auditd
+-rwxr-xr-x    1 root   wheel        168352 Jul 14  2022 auditreduce
+drwx------    3 root   wheel            96 Jul 14  2022 authserver
+-rwxr-xr-x    1 root   wheel        240384 Jul 14  2022 automount
+-rwxr-xr-x    1 root   wheel        339552 Jul 14  2022 avbdeviced
+-rwxr-xr-x    1 root   wheel        533536 Jul 14  2022 bless
+-rwxr-xr-x    1 root   wheel      15589952 Jul 14  2022 bluetoothd
+-rwxr-xr-x    1 root   wheel        207488 Jul 14  2022 bnepd
+-rwxr-xr-x    1 root   wheel        233248 Jul 14  2022 cfprefsd
+-rwxr-xr-x    1 root   wheel        168656 Jul 14  2022 chat
+-rwxr-xr-x    1 root   wheel        133648 Jul 14  2022 checkgid
+-rwxr-xr-x    2 root   wheel        151200 Jul 14  2022 chown
+-rwxr-xr-x    1 root   wheel        150880 Jul 14  2022 chroot
+-rwxr-xr-x    1 root   wheel        237408 Jul 14  2022 ckksctl
+-rwxr-xr-x    1 root   wheel        439424 Jul 14  2022 coreaudiod
+-rwxr-xr-x    1 root   wheel        191968 Jul 14  2022 createhomedir
+-rwxr-xr-x    1 root   wheel        205440 Jul 14  2022 cron
+-r-xr-xr-x    1 root   wheel        134640 Jul 14  2022 cupsaccept
+-r-xr-xr-x    1 root   wheel        134752 Jul 14  2022 cupsctl
+-r-x------    1 root   wheel        928720 Jul 14  2022 cupsd
+lrwxr-xr-x    1 root   wheel            10 Jul 14  2022 cupsdisable -> cupsaccept
+lrwxr-xr-x    1 root   wheel            10 Jul 14  2022 cupsenable -> cupsaccept
+-r-xr-xr-x    1 root   wheel        189008 Jul 14  2022 cupsfilter
+lrwxr-xr-x    1 root   wheel            10 Jul 14  2022 cupsreject -> cupsaccept
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvadmin -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvdb -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvdbset -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvfsck -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvfsdb -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvfsid -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvgather -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvlabel -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvmkfs -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvupdatefs -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 cvversions -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+-rwxr-xr-x    1 root   wheel          8925 Jul 14  2022 dbmmanage
+-rwxr-xr-x    1 root   wheel       3511344 Jul 14  2022 ddns-confgen
+-r-xr-xr-x    1 root   wheel        150656 Jul 14  2022 dev_mkdb
+-rwxr-xr-x    2 root   wheel       1143776 Jul 14  2022 disktool
+-rwxr-xr-x    2 root   wheel       1143776 Jul 14  2022 diskutil
+-rwxr-xr-x    1 root   wheel        357392 Jul 14  2022 distnoted
+-r-xr-xr-x    1 root   wheel        169296 Jul 14  2022 dnctl
+-r-xr-xr-x    1 root   wheel        167440 Jul 14  2022 dot_clean
+-rwxr-xr-x    1 root   wheel        205824 Jul 14  2022 dsconfigad
+-rwxr-xr-x    1 root   wheel        168384 Jul 14  2022 dsconfigldap
+-rwxr-xr-x    1 root   wheel        189120 Jul 14  2022 dseditgroup
+-rwxr-xr-x    1 root   wheel        153680 Jul 14  2022 dsenableroot
+-rwxr-xr-x    1 root   wheel        206368 Jul 14  2022 dtrace
+-r-xr-xr-x    1 root   wheel        168976 Jul 14  2022 edquota
+-rw-r--r--    2 root   wheel          1055 Jul 14  2022 envvars
+-rw-r--r--    2 root   wheel          1055 Jul 14  2022 envvars-std
+-rwxr-xr-x    1 root   wheel        151280 Jul 14  2022 fcgistarter
+-r-xr-xr-x    1 root   wheel        201600 Jul 14  2022 fdisk
+-rwxr-xr-x    1 root   wheel        170592 Jul 14  2022 filecoordinationd
+-rwxr-xr-x    1 root   wheel        203568 Jul 14  2022 firmwarepasswd
+-rwxr-xr-x    1 root   wheel        185120 Jul 14  2022 gpt
+-rwxr-xr-x    1 root   wheel        150688 Jul 14  2022 graphicssession
+-r-xr-xr-x    1 root   wheel        296160 Jul 14  2022 gssd
+-rwxr-xr-x    1 root   wheel        156848 Jul 14  2022 hdik
+-rwxr-xr-x    1 root   wheel        186992 Jul 14  2022 htcacheclean
+-rwxr-xr-x    1 root   wheel        137040 Jul 14  2022 htdbm
+-rwxr-xr-x    1 root   wheel        135296 Jul 14  2022 htdigest
+-rwxr-xr-x    1 root   wheel        136544 Jul 14  2022 htpasswd
+-rwxr-xr-x    1 root   wheel       1757712 Jul 14  2022 httpd
+-r-xr-xr-x    1 root   wheel          9088 Jul 14  2022 httpd-wrapper
+-rwxr-xr-x    1 root   wheel        134864 Jul 14  2022 httxt2dbm
+drwxr-xr-x    7 root   wheel           224 Jul 14  2022 iRATBW.mlmodelc
+-rwxr-xr-x    1 root   wheel        272448 Jul 14  2022 installer
+-rwxr-xr-x    1 root   wheel        151296 Jul 14  2022 ioalloccount
+-rwxr-xr-x    1 root   wheel        155952 Jul 14  2022 ioclasscount
+-rwxr-xr-x    1 root   wheel        189696 Jul 14  2022 ioreg
+-rwxr-xr-x    1 root   wheel        153088 Jul 14  2022 iostat
+-rwxr-xr-x    1 root   wheel        280704 Jul 14  2022 ipconfig
+-rwxr-xr-x    1 root   wheel       1094640 Jul 14  2022 kadmin
+-rwxr-xr-x    1 root   wheel          4662 Jul 14  2022 kadmin.local
+-rwxr-xr-x    1 root   wheel        349616 Jul 14  2022 kcditto
+-rwxr-xr-x    1 root   wheel        190640 Jul 14  2022 kdcsetup
+-rwxr-xr-x    1 root   wheel       1065104 Jul 14  2022 kextcache
+-rwxr-xr-x    1 root   wheel        242240 Jul 14  2022 kextfind
+-rwxr-xr-x    1 root   wheel        171008 Jul 14  2022 kextlibs
+-rwxr-xr-x    1 root   wheel        171376 Jul 14  2022 kextstat
+-rwxr-xr-x    1 root   wheel          2154 Jul 14  2022 klist_cdhashes
+-rwxr-xr-x    1 root   wheel        209584 Jul 14  2022 krbservicesetup
+-rwxr-xr-x    1 root   wheel        333920 Jul 14  2022 ktutil
+-rwxr-xr-x    1 root   wheel        168800 Jul 14  2022 languagesetup
+-rwxr-xr-x    1 root   wheel        168032 Jul 14  2022 localemanager
+-rwxr-xr-x    1 root   wheel        151952 Jul 14  2022 logresolve
+-r-xr-xr-x    1 root   wheel        170160 Jul 14  2022 lpadmin
+-r-xr-xr-x    1 root   wheel        151216 Jul 14  2022 lpc
+-r-xr-xr-x    1 root   wheel        134512 Jul 14  2022 lpinfo
+-r-xr-xr-x    1 root   wheel        135088 Jul 14  2022 lpmove
+-rwxr-xr-x    1 root   wheel        340288 Jul 14  2022 lsof
+-rwxr-xr-x    1 root   wheel       2431936 Jul 14  2022 mDNSResponder
+-rwxr-xr-x    1 root   wheel        228736 Jul 14  2022 mDNSResponderHelper
+-rwxr-xr-x    1 root   wheel        172144 Jul 14  2022 mkextunpack
+-rwxr-xr-x    1 root   wheel        150736 Jul 14  2022 mkfile
+-rwxr-xr-x    1 root   wheel        362272 Jul 14  2022 mkpassdb
+-rwxr-xr-x    1 root   wheel        222768 Jul 14  2022 mtree
+-r-xr-xr-x    1 root   wheel        201728 Jul 14  2022 ndp
+-rwxr-xr-x    1 root   wheel        963056 Jul 14  2022 netbiosd
+-r-xr-xr-x    1 root   wheel        400656 Jul 14  2022 netstat
+-rwxr-xr-x    1 root   wheel        471920 Jul 14  2022 networksetup
+-rwxr-xr-x    1 root   wheel        203008 Jul 14  2022 newsyslog
+-rwxr-xr-x    1 root   wheel        167184 Jul 14  2022 nfs4mapid
+-rwxr-xr-x    1 root   wheel        734560 Jul 14  2022 nlcontrol
+-rwxr-xr-x    1 root   wheel        276256 Jul 14  2022 notifyd
+-rwxr-xr-x    1 root   wheel        155184 Jul 14  2022 nvram
+-rwxr-xr-x    1 root   wheel        172080 Jul 14  2022 ocspd
+-rwxr-xr-x    1 root   wheel        305248 Jul 14  2022 otctl
+-rwxr-xr-x    1 root   wheel        235136 Jul 14  2022 pdisk
+-rwxr-xr-x    1 root   wheel          3716 Jul 14  2022 periodic
+-rwxr-xr-x    1 root   wheel        243040 Jul 14  2022 pkgutil
+-rwxr-xr-x    1 root   wheel        583904 Jul 14  2022 postalias
+-rwxr-xr-x    1 root   wheel        496160 Jul 14  2022 postcat
+-rwxr-xr-x    1 root   wheel        837024 Jul 14  2022 postconf
+-rwxr-sr-x    1 root   _postdrop    602144 Jul 14  2022 postdrop
+-rwxr-xr-x    1 root   wheel        461648 Jul 14  2022 postfix
+-rwxr-xr-x    1 root   wheel        478336 Jul 14  2022 postkick
+-rwxr-xr-x    1 root   wheel        479168 Jul 14  2022 postlock
+-rwxr-xr-x    1 root   wheel        461600 Jul 14  2022 postlog
+-rwxr-xr-x    1 root   wheel        599472 Jul 14  2022 postmap
+-rwxr-xr-x    1 root   wheel        495648 Jul 14  2022 postmulti
+-rwxr-sr-x    1 root   _postdrop    601936 Jul 14  2022 postqueue
+-rwxr-xr-x    1 root   wheel        496544 Jul 14  2022 postsuper
+-r-xr-xr-x    1 root   wheel        779744 Jul 14  2022 pppd
+-rwxr-xr-x    1 root   wheel        167440 Jul 14  2022 praudit
+-rwxr-xr-x    1 root   wheel        149952 Jul 14  2022 purge
+-rwxr-xr-x    1 root   wheel        168576 Jul 14  2022 pwd_mkdb
+-r-xr-xr-x    2 root   wheel        167024 Jul 14  2022 quotaoff
+-r-xr-xr-x    2 root   wheel        167024 Jul 14  2022 quotaon
+-r-xr-xr-x    1 root   wheel       1391632 Jul 14  2022 racoon
+-r-xr-xr-x    1 root   wheel        168960 Jul 14  2022 rarpd
+-rwxr-xr-x    1 root   wheel        167600 Jul 14  2022 repairHomePermissions
+-r-xr-xr-x    1 root   wheel        167584 Jul 14  2022 repquota
+-rwxr-xr-x    1 root   wheel        136480 Jul 14  2022 rotatelogs
+-rwxr-xr-x    1 root   wheel        272400 Jul 14  2022 rpc.lockd
+-rwxr-xr-x    1 root   wheel        188848 Jul 14  2022 rpc.statd
+-rwxr-xr-x    1 root   wheel        208720 Jul 14  2022 rpcbind
+-rwxr-xr-x    1 root   wheel        186512 Jul 14  2022 rpcinfo
+-r-xr-xr-x    1 root   wheel        236224 Jul 14  2022 rtadvd
+-rwxr-xr-x    1 root   wheel        167920 Jul 14  2022 sa
+-rwxr-xr-x    1 root   wheel          9207 Jul 14  2022 sc_auth
+-rwxr-xr-x    1 root   wheel       1595760 Jul 14  2022 screencapture
+-rwxr-xr-x    1 root   wheel        152576 Jul 14  2022 scselect
+-rwxr-xr-x    1 root   wheel        611328 Jul 14  2022 scutil
+-rwxr-xr-x    1 root   wheel       1819168 Jul 14  2022 securityd
+-rwxr-xr-x    1 root   wheel        584896 Jul 14  2022 sendmail
+lrwxr-xr-x    1 root   wheel            93 Jul 14  2022 serverinfo -> /System/Library/PrivateFrameworks/ServerInformation.framework/Versions/A/Resources/serverinfo
+-r-xr-xr-x    1 root   wheel        269216 Jul 14  2022 setkey
+-rwxr-xr-x    1 root   wheel        168256 Jul 14  2022 setquota
+-rwxr-xr-x    1 root   wheel        170400 Jul 14  2022 sharing
+-rwxr-xr-x    1 root   wheel        368912 Jul 14  2022 skywalkctl
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slapacl -> ../libexec/slapd
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slapadd -> ../libexec/slapd
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slapauth -> ../libexec/slapd
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slapcat -> ../libexec/slapd
+-rwxr-xr-x    1 root   wheel       1215456 Jul 14  2022 slapconfig
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slapdn -> ../libexec/slapd
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slapindex -> ../libexec/slapd
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slappasswd -> ../libexec/slapd
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slapschema -> ../libexec/slapd
+lrwxr-xr-x    1 root   wheel            16 Jul 14  2022 slaptest -> ../libexec/slapd
+-rwxr-xr-x    1 root   wheel       2004272 Jul 14  2022 smbd
+-rwxr-xr-x    1 root   wheel          2608 Jul 14  2022 smbdiagnose
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 sndiskmove -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+-rwxr-xr-x    1 root   wheel           291 Jul 14  2022 snmpd
+-rwxr-xr-x    1 root   wheel        173728 Jul 14  2022 snmptrapd
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 snquota -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+-rwxr-xr-x    1 root   wheel        152080 Jul 14  2022 sntpd
+-rwxr-xr-x    1 root   wheel        294144 Jul 14  2022 softwareupdate
+-rwxr-xr-x    1 root   wheel        335456 Jul 14  2022 spctl
+-rwxr-xr-x    1 root   wheel       2252912 Jul 14  2022 spindump
+-r-xr-xr-x    1 root   wheel        167200 Jul 14  2022 spray
+-rwxr-xr-x    1 root   wheel       1674320 Jul 14  2022 sshd
+-rwxr-xr-x    1 root   wheel        297792 Jul 14  2022 sso_util
+-rwxr-xr-x    1 root   wheel        206736 Jul 14  2022 sysadminctl
+-rwxr-xr-x    1 root   wheel        151680 Jul 14  2022 sysctl
+-rwxr-xr-x    1 root   wheel        364208 Jul 14  2022 syslogd
+-rwxr-xr-x    1 root   wheel        203600 Jul 14  2022 system_profiler
+-rwxr-xr-x    1 root   wheel        330928 Jul 14  2022 systemkeychain
+-rwxr-xr-x    1 root   wheel        326800 Jul 14  2022 systemsetup
+-rwxr-xr-x    1 root   wheel        328592 Jul 14  2022 systemsoundserverd
+-rwxr-xr-x    1 root   wheel       3038736 Jul 14  2022 systemstats
+-rwxr-xr-x    1 root   wheel        151776 Jul 14  2022 taskpolicy
+-rwxr-xr-x    1 root   wheel       1950368 Jul 14  2022 tcpdump
+-rwxr-xr-x    1 root   wheel       2196912 Jul 14  2022 tpctl
+-r-sr-xr-x    1 root   wheel        203312 Jul 14  2022 traceroute
+-r-sr-xr-x    1 root   wheel        169984 Jul 14  2022 traceroute6
+lrwxr-xr-x    1 root   wheel            12 Jul 14  2022 tsig-keygen -> ddns-confgen
+-rwxr-xr-x    1 root   wheel        170592 Jul 14  2022 uasysdiagnose
+-rwxr-xr-x    1 root   wheel        171632 Jul 14  2022 universalaccessd
+-rwxr-xr-x    1 root   wheel        168624 Jul 14  2022 unsetpassword
+-rwxr-xr-x    1 root   wheel       3527600 Jul 14  2022 usernoted
+-rwxr-xr-x    1 root   wheel        236752 Jul 14  2022 uuchk
+-r-xr-xr-x    1 _uucp  wheel        560656 Jul 14  2022 uucico
+-rwxr-xr-x    1 root   wheel        269648 Jul 14  2022 uuconv
+-rwxr-xr-x    1 root   wheel           315 Jul 14  2022 uusched
+-r-xr-xr-x    1 _uucp  wheel        308192 Jul 14  2022 uuxqt
+-rwxr-xr-x    1 root   wheel        167200 Jul 14  2022 vifs
+-rwxr-xr-x    1 root   wheel        168192 Jul 14  2022 vipw
+---x--x--x    1 root   wheel        589584 Jul 14  2022 visudo
+-r-xr-xr-x    1 root   wheel        368256 Jul 14  2022 vpnd
+-r-xr-xr-x    1 root   wheel        168368 Jul 14  2022 vsdbutil
+lrwxr-xr-x    1 root   wheel            25 Jul 14  2022 weakpass_edit -> authserver/tools/weakpass
+-rwxr-xr-x    1 root   wheel        255856 Jul 14  2022 wfsctl
+-rwxr-xr-x    1 root   wheel        170560 Jul 14  2022 xartutil
+lrwxr-xr-x    1 root   wheel            63 Jul 14  2022 xsanctl -> /System/Library/Filesystems/acfs.fs/Contents/bin/redirection.sh
+-rwxr-xr-x    1 root   wheel        298544 Jul 14  2022 xscertadmin
+-rwxr-xr-x    1 root   wheel        150944 Jul 14  2022 zdump
+-rwxr-xr-x    1 root   wheel        201760 Jul 14  2022 zic
