@@ -2,8 +2,7 @@
 
 
 
-from file_io import file_io
-
+from file_io import file_io, file_io_config, file_io_extra
 
 def pretty_json(some_object, indent=4):
   return json.dumps(some_object, indent=indent)
@@ -28,10 +27,19 @@ file_io["write_directory"]({
 "directory_name": location
 })
 
+reverse_index = {}
+
+for i, path in enumerate(paths):
+  reverse_index[i + 1] = path
+  reverse_index[path] = i + 1
+
 def write_shell_file(path):
+  res0 = file_io["ls1_dir"]({"directory_name": path})["result"].split("\n")
+  for binary_exe_name in res0:
+    reverse_index[binary_exe_name] = reverse_index[path]
   res1 = file_io["write_file"]({
 "file_name": location + "ls1"+ path.replace("/", "-") +".json",
-"data_string": pretty_json(file_io["ls1_dir"]({"directory_name": path})["result"].split("\n"))
+"data_string": pretty_json(res0)
 })
   res2 = file_io["write_file"]({
 "file_name": location + "lsla"+ path.replace("/", "-") +".json",
@@ -46,8 +54,7 @@ def write_shell_file(path):
 for path in paths:
   print(pretty_json(write_shell_file(path)))
 
-
-res4 = file_io["write_file"]({
+file_io["write_file"]({
 
 "file_name": "/Users/devssh/EventServer/Codebase/EventServerV5/Shell/bin/aliases.json",
 "data_string": pretty_json({
@@ -128,12 +135,10 @@ It turns out as l flag indicating link instead of - for regular file.
 })
 })
 
-print(res4)
-
 summary = []
 for path in paths:
   res5 = file_io["wc_file"]({
-"file_name": location + "ls1" + path.replace("/", "-") + ".json"      
+"file_name": location + "ls1" + path.replace("/", "-") + ".json"
 })["result"]
   summary = [*summary, res5]
 
@@ -143,3 +148,9 @@ file_io["write_file"]({
 summary
 )})
 
+file_io["write_file"]({
+"file_name": location + "reverse-index-binary-name.json",
+"data_string": pretty_json(reverse_index)
+})
+
+print(reverse_index[reverse_index["lsof"]])
