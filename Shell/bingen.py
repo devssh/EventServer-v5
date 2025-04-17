@@ -130,5 +130,16 @@ It turns out as l flag indicating link instead of - for regular file.
 
 print(res4)
 
+summary = []
+for path in paths:
+  res5 = file_io["wc_file"]({
+"file_name": location + "ls1" + path.replace("/", "-") + ".json"      
+})["result"]
+  summary = [*summary, res5]
 
+file_io["write_file"]({
+"file_name": "/Users/devssh/EventServer/Codebase/EventServerV5/Shell/bin/summary.json",
+"data_string": pretty_json(
+summary
+)})
 
